@@ -1,4 +1,4 @@
-# nests-prisma-dataloader
+# nestjs-prisma-dataloader
 
 **Effortless request-scoped Prisma DataLoaders for NestJS.**  
 Avoid N+1 problems and optimize your database queries with ease.
@@ -8,7 +8,7 @@ Avoid N+1 problems and optimize your database queries with ease.
 ## 📦 Installation
 
 ```bash
-npm install nests-prisma-dataloader
+npm install nestjs-prisma-dataloader
 ```
 
 ---
@@ -36,7 +36,7 @@ This package integrates [DataLoader](https://github.com/graphql/dataloader) with
 ```ts
 // app.module.ts
 import { Module } from '@nestjs/common';
-import { DataloaderModule } from 'nests-prisma-dataloader';
+import { DataloaderModule } from 'nestjs-prisma-dataloader';
 
 @Module({
   imports: [DataloaderModule],
@@ -51,7 +51,7 @@ export class AppModule {}
 ```ts
 // user.service.ts
 import { Injectable } from '@nestjs/common';
-import { DataloaderService } from 'nests-prisma-dataloader';
+import { DataloaderService } from 'nestjs-prisma-dataloader';
 
 @Injectable()
 export class UserService {
@@ -100,8 +100,8 @@ MIT
 
 ## 🔗 Links
 
-- **NPM:** [nests-prisma-dataloader](https://www.npmjs.com/package/nests-prisma-dataloader)
-- **GitHub:** [github.com/sahiljaggarwal/nests-prisma-dataloader](https://github.com/sahiljaggarwal/nests-prisma-dataloader)
+- **NPM:** [nestjs-prisma-dataloader](https://www.npmjs.com/package/nestjs-prisma-dataloader)
+- **GitHub:** [github.com/sahiljaggarwal/nestjs-prisma-dataloader](https://github.com/sahiljaggarwal/nestjs-prisma-dataloader)
 
 ---
 

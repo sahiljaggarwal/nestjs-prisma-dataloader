@@ -1,6 +1,6 @@
 {
-  "name": "nests-prisma-dataloader",
-  "version": "1.0.0",
+  "name": "nestjs-prisma-dataloader",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
